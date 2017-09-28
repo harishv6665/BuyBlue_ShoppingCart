@@ -11,3 +11,14 @@ a {
 button {
     cursor: pointer;
 }
+
+ul {
+    list-style: none;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    margin-left: 0;
+}

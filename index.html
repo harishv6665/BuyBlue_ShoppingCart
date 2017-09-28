@@ -1,16 +1,242 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <title>BuyBlue : Home</title>
 
     <link href="https://fonts.googleapis.com/css?family=Oswald:700|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="./src/fonts/flaticon/flaticon.css">
+
+    <link rel="stylesheet" href="./dist/app.css">
 
 </head>
 <body>
+
+<div class="page-wrapper">
+
+    <!-- ::: HEADER STARTS HERE ::: -->
+
+    <header class="header clearfix">
+
+        <div class="header__hamburger fleft">
+
+            <button class="header__hamburger__button flaticon-menu"></button>
+
+            <nav class="header__hamburger__nav">
+                <a href="#" class="header__hamburger__nav__link">Menu 1</a>
+                <a href="#" class="header__hamburger__nav__link">Menu 2</a>
+                <a href="#" class="header__hamburger__nav__link">Menu 3</a>
+                <a href="#" class="header__hamburger__nav__link">Menu 4</a>
+                <a href="#" class="header__hamburger__nav__link">Menu 5</a>
+            </nav>
+
+        </div>
+
+        <a href="#" class="header__logo fleft"></a>
+
+        <nav class="header__nav fleft">
+
+            <a href="#" class="header__nav__link">
+                <span class="header__nav__link__title flaticon-arrow-point-to-right">Men</span>
+
+                <ul class="header__nav__link__menu-list">
+                    <li class="header__nav__link__menu-list__item">Link 1</li>
+                    <li class="header__nav__link__menu-list__item">Link 1</li>
+                    <li class="header__nav__link__menu-list__item">Link 1</li>
+                </ul>
+
+            </a>
+
+            <a href="#" class="header__nav__link">
+                <span class="header__nav__link__title flaticon-arrow-point-to-right">Women</span>
+            </a>
+
+            <a href="#" class="header__nav__link">
+                <span class="header__nav__link__title flaticon-arrow-point-to-right">Kids</span>
+            </a>
+
+            <a href="#" class="header__nav__link">
+                <span class="header__nav__link__title flaticon-arrow-point-to-right">Accessories</span>
+            </a>
+
+        </nav>
+
+        <div class="header__actions fright">
+            <a href="#" class="header__actions__link flaticon-business">
+                <span class="header__actions__link__notifier">3</span>
+            </a>
+            <a href="#" class="header__actions__link flaticon-people"></a>
+            <button class="header__actions__link search-button flaticon-search"></button>
+        </div>
+
+    </header>
+
+    <!-- ::: HEADER ENDS HERE ::: -->
+
+
+    <!-- ::: BANNER STARTS HERE ::: -->
+
+    <div class="banner__wrapper clearfix">
+        <div class="banner fleft">
+            <div class="banner__img"></div>
+            <div class="banner__hero">
+                <span class="banner__hero__cateogry-title">MEN</span>
+                <h1 class="banner__hero__title">Reply Jeans Hyperflex</h1>
+                <h3 class="banner__hero__desc-title">Skinny Comfort Ultra Stretch Light Wash</h3>
+                <button class="banner__hero__button clearfix">
+                    <span class="banner__hero__button__title-left fleft">$145</span>
+                    <span class="banner__hero__button__title-right fleft">Buy now</span>
+                </button>
+            </div>
+            <button class="banner__slider-nav left flaticon-arrow-point-to-right"></button>
+            <button class="banner__slider-nav right flaticon-arrow-point-to-right"></button>
+        </div>
+        <ul class="banner-nav fright">
+            <li class="banner-nav__list-item thumb1"></li>
+            <li class="banner-nav__list-item thumb2 active"></li>
+            <li class="banner-nav__list-item thumb3"></li>
+            <li class="banner-nav__list-item thumb4"></li>
+        </ul>
+    </div>
+
+    <!-- ::: BANNER ENDS HERE ::: -->
+
+
+    <!-- ::: CATALOGUE VIEW STARTS HERE ::: -->
+
+    <ul class="catalogue">
+
+        <li class="catalogue__list">
+            <a href="#" class="catalogue-list__list__item featured">
+                <span class="catalogue-list__list__item-featured__icon flaticon-luxury"></span>
+                <h2 class="catalogue-list__list__item-featured__title">FEATURED <br>PRODUCTS</h2>
+                <h4 class="catalogue-list__list__item-featured__sub-title">the best <br>of our store</h4>
+
+            </a>
+        </li>
+
+        <li class="catalogue__list">
+            <a href="#" class="catalogue-list__list__item">
+                <span class="catalogue-list__list__item__title">H&M Chino Shorts</span>
+                <div class="catalogue-list__list__item__img__wrapper">
+                    <img class="catalogue-list__list__item__img"
+                         src="./src/images/products/prod1.png"
+                         alt="H&M Chino Shorts">
+                </div>
+                <div class="catalogue-list__list__item__footer">
+                    <span class="catalogue-list__list__item__footer__tag hit">HIT</span>
+                    <span class="catalogue-list__list__item__footer__title">$12</span>
+                    <span></span>
+                </div>
+            </a>
+        </li>
+
+        <li class="catalogue__list">
+            <a href="#" class="catalogue-list__list__item">
+                <span class="catalogue-list__list__item__title">Bobbies Elegant Leather Driving Shoes</span>
+                <div class="catalogue-list__list__item__img__wrapper">
+                    <img class="catalogue-list__list__item__img"
+                         src="./src/images/products/prod2.png"
+                         alt="Bobbies Elegant Leather Driving Shoes"/>
+                </div>
+                <div class="catalogue-list__list__item__footer">
+                    <span></span>
+                    <span class="catalogue-list__list__item__footer__title">$12</span>
+                    <span></span>
+                </div>
+            </a>
+        </li>
+
+        <li class="catalogue__list">
+            <a href="#" class="catalogue-list__list__item">
+                <span class="catalogue-list__list__item__title">Fiorelli Rita Striped Tote Bag</span>
+                <div class="catalogue-list__list__item__img__wrapper">
+                    <img class="catalogue-list__list__item__img"
+                         src="./src/images/products/prod3.png"
+                         alt="Fiorelli Rita Striped Tote Bag"/>
+                </div>
+                <div class="catalogue-list__list__item__footer">
+                    <span class="catalogue-list__list__item__footer__tag sale">SALE</span>
+                    <span class="catalogue-list__list__item__footer__title sale">$170</span>
+                    <span class="catalogue-list__list__item__footer__sub-title">$180</span>
+                </div>
+            </a>
+        </li>
+
+        <li class="catalogue__list">
+            <a href="#" class="catalogue-list__list__item">
+                <span class="catalogue-list__list__item__title">H&M Polo Shirt</span>
+                <div class="catalogue-list__list__item__img__wrapper">
+                    <img class="catalogue-list__list__item__img"
+                         src="./src/images/products/prod4.png"
+                         alt="H&M Polo Shirt"/>
+                </div>
+                <div class="catalogue-list__list__item__footer">
+                    <span></span>
+                    <span class="catalogue-list__list__item__footer__title">$9.5</span>
+                    <span></span>
+                </div>
+            </a>
+        </li>
+
+        <li class="catalogue__list">
+            <a href="#" class="catalogue-list__list__item">
+                <span class="catalogue-list__list__item__title">ASOS Skinny Band Felt Floppy Hat</span>
+                <div class="catalogue-list__list__item__img__wrapper">
+                    <img class="catalogue-list__list__item__img"
+                         src="./src/images/products/prod5.png"
+                         alt="ASOS Skinny Band Felt Floppy Hat"/>
+                </div>
+                <div class="catalogue-list__list__item__footer">
+                    <span></span>
+                    <span class="catalogue-list__list__item__footer__title">$24</span>
+                    <span></span>
+                </div>
+            </a>
+        </li>
+
+        <li class="catalogue__list">
+            <a href="#" class="catalogue-list__list__item">
+                <span class="catalogue-list__list__item__title">Ted Baker Leather Messenger Bag</span>
+                <div class="catalogue-list__list__item__img__wrapper">
+                    <img class="catalogue-list__list__item__img"
+                         src="./src/images/products/prod6.png"
+                         alt="Ted Baker Leather Messenger Bag"/>
+                </div>
+                <div class="catalogue-list__list__item__footer">
+                    <span class="catalogue-list__list__item__footer__tag new">NEW</span>
+                    <span class="catalogue-list__list__item__footer__title">$344</span>
+                    <span></span>
+                </div>
+            </a>
+        </li>
+
+        <li class="catalogue__list">
+            <a href="#" class="catalogue-list__list__item">
+                <span class="catalogue-list__list__item__title">H&M Canvas Parka</span>
+                <div class="catalogue-list__list__item__img__wrapper">
+                    <img class="catalogue-list__list__item__img"
+                         src="./src/images/products/prod7.png"
+                         alt="H&M Canvas Parka"/>
+                </div>
+                <div class="catalogue-list__list__item__footer">
+                    <span></span>
+                    <span class="catalogue-list__list__item__footer__title">$69</span>
+                    <span></span>
+                </div>
+            </a>
+        </li>
+
+    </ul>
+
+    <!-- ::: CATALOGUE VIEW ENDS HERE ::: -->
+
+</div>
 
 </body>
 </html>
