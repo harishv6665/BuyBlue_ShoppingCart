@@ -1,0 +1,27 @@
+@import "reset";
+@import "colors";
+@import "mixins";
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 400;
+  background-color: $color-black;
+}
+
+// ::: COMMON CLASSES STARTS HERE ::: //
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+// ::: COMMON CLASSES ENDS HERE ::: //

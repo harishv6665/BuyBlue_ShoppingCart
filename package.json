@@ -1,0 +1,26 @@
+{
+  "name": "buy_blue-shopping_cart",
+  "version": "1.0.0",
+  "description": "Simple static shopping cart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harishv6665/BuyBlue_ShoppingCart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harishv6665/BuyBlue_ShoppingCart/issues"
+  },
+  "homepage": "https://github.com/harishv6665/BuyBlue_ShoppingCart#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
